@@ -1,0 +1,36 @@
+{
+  "name": "mineflayer-botdown",
+  "version": "0.0.1",
+  "description": "The client-side plugin for interacting with the BotDown Minecraft server through Mineflayer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDudeFromCI/mineflayer-botdown.git"
+  },
+  "keywords": [
+    "mineflayer",
+    "ai",
+    "bot",
+    "battle",
+    "plugin",
+    "minigame",
+    "minecraft"
+  ],
+  "author": "TheDudeFromCI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheDudeFromCI/mineflayer-botdown/issues"
+  },
+  "homepage": "https://github.com/TheDudeFromCI/mineflayer-botdown#readme",
+  "dependencies": {
+    "mineflayer": "^2.40.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
